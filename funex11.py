@@ -1,0 +1,14 @@
+def biggest(*nos):
+    if (num1 > num2) and (num1 > num3):
+        largest = num1
+    elif (num2 > num1) and (num2 > num3):
+        largest = num2
+    else:
+        largest = num3
+    return [largest]
+
+
+num1 = int(input("enter the first number:"))
+num2 = int(input("enter the second number:"))
+num3 = int(input("enter the third number:"))
+print("the biggest number is", biggest(num1,num2,num3))
